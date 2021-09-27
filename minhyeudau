@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+			Gioi thieu ban than 
+	</title>
+	
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1">
+		
+	<style>
+	
+		
+		 {
+			box-sizing: border-box;
+		}
+
+		body {
+			padding: 15px;
+		}
+		
+		
+		.container {
+			max-width: 1200px;
+			margin: auto;
+		}
+		
+		h1 {
+			color: green;
+		}
+		
+		a {
+			text-decoration: none;
+			color: #5673C8;
+		}
+		
+		a:hover {
+			color: lightblue;
+		}
+		
+		p {
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 4;
+			overflow: hidden;
+	
+		}
+
+		.row {
+			margin: 0px -18px;
+			padding: 8px;
+		}
+		
+		.row > .column {
+			padding: 6px;
+		}
+		
+		.column {
+			float: left;
+			width: 25%;
+		}
+		
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		
+		.content {
+			background-color: white;
+			padding: 10px;
+			border: 1px solid gray;
+		}
+		
+		/* window size 850 width set */
+		media screen and (max-width: 850px) {
+			.column {
+				width: 50%;
+			}
+		}
+	
+		
+		media screen and (max-width: 400px) {
+			.column {
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	
+
+	<div class="container">
+		<h1>Le Zu Quang Minh dep trai</h1>
+		<h3> Le Zu Quang Minh lu roi </h3>
+		<hr>
+
+		<!-- Content of the body-->
+		<h2> Hehe profile cua tui ne :< </h2>
+		<div class="row">
+			<div class="column">
+				<div class="content">
+					<img src=
+
+						alt="" style="width:100%">
+					<h3>
+						<a>Tuoi tac ne :c</a>
+					</h3>
+					
+
+<p>Le Zu Quang Minh la tui, 15 tuoi nha 	</p>			
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="content">
+					<img src=
+						alt="" style="width:100%">
+					<h3>
+						<a>CSS thieu nang qua </a>
+					</h3>
+					
+					
+
+<p>         Simp dog Dang Duc Huu Toan x Mincute </p>
+
+
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="content">
+					<img src=
+
+						alt="" style="width:100%">
+					<h3>
+						<a>viet gi bh :vvvvv </a>
+					</h3>
+					
+					
+
+<p>
+					
+					<p>
+
+
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="content">
+					<img src=
+
+						alt="" style="width:100%">
+					<h3>
+						<a> Cho hoc JavaScript di dm </a>
+					</h3>
+					
+					
+
+<p>					</p>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>		
